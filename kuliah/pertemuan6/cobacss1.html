@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganteng</title>
+    <style>
+        body {
+            background-image: url('image/saidbg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* Warna teks default putih agar terlihat di background gelap */
+            font-family: "minecraft", sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Efek teks RGB gradasi yang mengalir mulus (smooth) */
+        .rgb-smooth {
+            background: linear-gradient(
+                to right,
+                #c5ffbc,
+                #7cff8f,
+                #27e837,
+                #049a11,
+                #049a11,
+                #27e837,
+                #7cff8f,
+                #c5ffbc
+            );
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rgbFlow 4s linear infinite;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+
+        @keyframes rgbFlow {
+            0% {
+                background-position: 0% center;
+            }
+            100% {
+                background-position: -200% center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="rgb-smooth">
+        <h1>SAID GALER</h1>
+        <p>ADALAH TOKOH PENTING</p>
+    </div>
+
+
+    <figure>
+        <img src="image/creeper.png" alt="logo" width="150">
+        <figcaption>PELIHARAAN SAID</figcaption>
+    </figure>
+
+    <figure>
+        <img src="image/ore3d.png" alt="logo" width="150">
+        <figcaption>MAKANAN SAID</figcaption>
+    </figure>
+
+</body>
+</html>

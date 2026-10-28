@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('image/mineback.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* aturan dasar untuk semua figure */
+        figure {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+        }
+
+        /* hotbar di tengah bawah (20% sampai 80% layar) */
+        figure.hotbar {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+        }
+
+        /* tangan di kanan bawah (85% sampai 100% layar) */
+        figure.hand {
+            left: auto;   /* batalkan left dari aturan dasar */
+            right: 0;
+            width: 35vw;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <figure class="hotbar">
+        <img src="image/minehotbar.png" alt="Hotbar">
+    </figure>
+
+    <figure class="hand">
+        <img src="image/steve-hand.png" alt="Steve's Hand">
+    </figure>
+</body>
+</html>
