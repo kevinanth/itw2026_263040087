@@ -1,0 +1,33 @@
+h1 {
+            font-size: 120px;
+            font-family: "Jetbrains Mono";
+            color:rgb(255, 200, 83);
+            text-align: center;
+        }
+
+        p {
+            color: rgb(104, 104, 104);
+            font-size: 20px;
+            text-align: center; 
+        }
+
+        .p2 {
+            color: rgb(255, 59, 59);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #judul {
+            text-transform: uppercase;
+            color: rgb(59, 59, 255);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #garis-bawah {
+            text-decoration: underline;
+        }
+
+        .cetak-miring {
+            font-style: italic;
+        }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    @font-face {
+        font-family: 'Bitcount';
+        src: url('fonts/BitcountPropDouble-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+        h1 {
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Mynerve', sans-serif;
+            font-weight: 500;
+        }
+
+        p {
+            color: darkslategray;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.6;
+            font-family: 'Spectral SC', serif;
+            font-weight: 300;
+        }
+
+        .font-bitcount {
+            font-family: 'Bitcount', arial, sans-serif;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id vitae nisi magni! Aliquam quaerat amet laboriosam asperiores quasi dignissimos.</p>
+    <p class="font-bitcount">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore id est accusantium! Minima aperiam et harum, eligendi debitis provident.</p>
+</body>
+
+</html>
